@@ -61,7 +61,7 @@ Executar os testes manualmente no Postman:
 1. **Abra o Postman**.
 2. **Vá até "File" > "Import"**.
 3. **Selecione o arquivo** `test_api_collection.json` e clique em **"Import"**.
-4. **(Opcional) Importe o ambiente** `test_api_collection.json` na aba **Environments**.
+4. **(Opcional) Importe o ambiente** `test_env.json` na aba **Environments**.
 5. **Execute os testes** clicando no botão **"Run Collection"**.
 
 ---
