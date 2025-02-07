@@ -16,7 +16,7 @@ Antes de executar os testes, certifique-se de ter instalado:
 
 1. **Clone este repositório**  
    ```sh
-   git clone 
+   git clone https://github.com/tiagoparanhos/api_tests.git
    ```
 
 2. **Instale o Newman**  
