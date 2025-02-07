@@ -44,10 +44,13 @@ newman run test_api_collection.json -e test_env.json
 Para gerar um relatório no formato HTML, execute:
 
 ```sh
-newman run test_api_collection.json -e test_env.json -r html
+newman run test_api_collection.json -g test_env.json --delay-request 1 --reporters cli,htmlextra --reporter-htmlextra-export ./output/Report.html
+
+Para abrir o relatório no navegador após a geração execute: start ./output/Report.html
+
 ```
 
-O relatório será salvo na pasta **newman/** do projeto.
+O relatório será salvo na pasta **output/** do projeto.
 
 ---
 
